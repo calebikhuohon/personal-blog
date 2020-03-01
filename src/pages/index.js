@@ -14,7 +14,7 @@ const BlogIndex = ({ data, location }) => {
     <body style={{
       border: `5px solid #fe9801`,
       backgroundColor: `#f8f9fa`,
-      height: `100%`
+      minHeight: `100%`
     }}>
       <Layout location={location} title={siteTitle}>
         <SEO title="All posts" />
