@@ -9,7 +9,7 @@ const NotFoundPage = ({ data, location }) => {
 
   return (
     <body style={{
-      border: `5px solid #fe9801`,
+      border: `2px solid #fe9801`,
       backgroundColor: `#f8f9fa`,
       minHeight: `100vh`,
       margin: 0
