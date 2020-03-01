@@ -11,7 +11,6 @@ const NotFoundPage = ({ data, location }) => {
     <body style={{
       border: `5px solid #fe9801`,
       backgroundColor: `#f8f9fa`,
-      position: `absolute`,
       minHeight: `100vh`,
       margin: 0
     }}>
