@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
+import twitterImg from "../../content/assets/twitter.png"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -46,20 +47,21 @@ const Bio = () => {
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
+          // width: `90px`,
+          // height: `90px`,
           minWidth: 50,
-          borderRadius: `100%`,
+          minHeight: 50,
+          borderRadius: `8px`,
         }}
         imgStyle={{
-          borderRadius: `50%`,
+          borderRadius: `2px`,
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow on Twitter
-        </a>
+        <a href={`https://twitter.com/${social.twitter}`}>{author}</a> is a backend software engineer  obsessed with distributed
+        systems who
+         is based in Nigeria and is willing to work on awesome projects around the globe.
+      
       </p>
     </div>
   )

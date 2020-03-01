@@ -12,6 +12,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const { previous, next } = pageContext
 
   return (
+    <body style={{
+      border: `5px solid #fe9801`,
+      backgroundColor: `#f8f9fa`
+    }}>
     <Layout location={location} title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
@@ -75,6 +79,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
     </Layout>
+    </body>
   )
 }
 
