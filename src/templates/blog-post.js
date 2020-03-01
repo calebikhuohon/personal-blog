@@ -15,7 +15,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     <body style={{
       border: `5px solid #fe9801`,
       backgroundColor: `#f8f9fa`,
-      height: `100% !important;`
+      height: `100%`
     }}>
     <Layout location={location} title={siteTitle}>
       <SEO
