@@ -1,13 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 [![Build Status](https://travis-ci.org/calebikhuohon/personal-blog.svg?branch=master)](https://travis-ci.org/calebikhuohon/personal-blog)
-<p align="center">
-  <a href="https://calebikhuohon.github.io">
-    <img alt="Caleb's blog Icon" src="https://res.cloudinary.com/calebikhuohon/image/upload/v1583035730/android-chrome-512x512.png" width="60" />
-  </a>
-</p>
 <h1 align="center">
   My personal blog built with 
-  <a href="https://github.com/gatsbyjs/gatsby-starter-blog">Gatsby</a> :heart:
+  <a href="https://github.com/gatsbyjs/gatsby-starter-blog">Gatsby</a> 
 </h1>
 
 
