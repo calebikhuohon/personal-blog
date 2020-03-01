@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Caleb Ikhuohon's Blog`,
+    title: `Caleb's Blog`,
     author: `Caleb Ikhuohon`,
     description: `My personal blog for all things code, and more.`,
     siteUrl: `https://calebikhuohon.github.io`,
@@ -59,8 +59,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Caleb's Blog`,
+        short_name: `Caleb's Blog`,
         start_url: `/`,
         background_color: `#f8f9fa`,
         theme_color: `#663399`,
