@@ -16,6 +16,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       border: `2px solid #fe9801`,
       backgroundColor: `#f8f9fa`,
       minHeight: `100vh`,
+      minHeight: `100vh`,
       margin: 0
     }}>
     <Layout location={location} title={siteTitle}>
