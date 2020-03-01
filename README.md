@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/calebikhuohon/personal-blog.svg?branch=master)](https://travis-ci.org/calebikhuohon/personal-blog)
 <p align="center">
   <a href="https://calebikhuohon.github.io">
-    <img alt="Caleb's blog Icon" src="https://res.cloudinary.com/calebikhuohon/image/upload/v1583035276/android-chrome-512x512.svg" width="60" />
+    <img alt="Caleb's blog Icon" src="https://res.cloudinary.com/calebikhuohon/image/upload/v1583035730/android-chrome-512x512.png" width="60" />
   </a>
 </p>
 <h1 align="center">
