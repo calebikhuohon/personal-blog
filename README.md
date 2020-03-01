@@ -1,8 +1,8 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 [![Build Status](https://travis-ci.org/calebikhuohon/personal-blog.svg?branch=master)](https://travis-ci.org/calebikhuohon/personal-blog)
 <h1 align="center">
-  My personal blog built with 
-  <a href="https://github.com/gatsbyjs/gatsby-starter-blog">Gatsby</a> 
+  My personal blog built from the 
+  <a href="https://github.com/gatsbyjs/gatsby-starter-blog">Gatsby Blog Starter</a> 
 </h1>
 
 
