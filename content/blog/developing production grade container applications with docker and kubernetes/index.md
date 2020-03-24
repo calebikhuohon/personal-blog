@@ -19,7 +19,7 @@ These logical units would be properly bundled up with [Docker](https://docker.co
 In this article, we would explore the world of Docker and why it is quite popular in our tech world.
 ****
 ## Prerequisites
-****- Familiarity with Bash and the Linux terminal.
+- Familiarity with Bash and the Linux terminal.
 - [Docker](https://www.docker.com/) installed on your local machine. See the installation guides [here](https://docs.docker.com/install/).
 
 
