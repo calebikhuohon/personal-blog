@@ -57,6 +57,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/calebikhuohon/calebikhuohon.github.io.git -b master",
+    "direct-deploy": "gatsby build && gh-pages -d public -r https://github.com/calebikhuohon/calebikhuohon.github.io.git -b master",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0"
   }
 }
