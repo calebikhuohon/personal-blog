@@ -32,7 +32,7 @@ const BlogIndex = ({ data, location }) => {
                 >
                   <Link style={{
                     boxShadow: `none`,
-                    color: `purple`
+                    color: `#d23669`
                   }} to={node.fields.slug}>
                     {title}
                   </Link>

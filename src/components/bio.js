@@ -59,7 +59,7 @@ const Bio = () => {
       />
       <p>
         <a href={`https://twitter.com/${social.twitter}`}>{author}</a> is a backend software engineer  obsessed with distributed
-        systems based in Nigeria.
+        systems.
       
       </p>
     </div>

@@ -7,7 +7,7 @@ module.exports = {
     social: {
       twitter: `nerdycaleb`,
       github: `calebikhuohon`,
-      //linkedin: ``
+      linkedin: `caleb-ikhuohon-eboreime-5860a3a7`
     },
   },
   plugins: [

@@ -2,8 +2,24 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Layout = ({ location, title, children }) => {
+  const data = useStaticQuery(graphql`
+  query SocialQuery {    
+    site {
+      siteMetadata {
+        social {
+          twitter
+          github
+          linkedin
+        }
+      }
+    }
+  }
+`)
+
+const { social } = data.site.siteMetadata
   const rootPath = `${__PATH_PREFIX__}/`
   let header
 
@@ -20,7 +36,7 @@ const Layout = ({ location, title, children }) => {
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: `purple`,
+            color: `#d23669`,
           }}
           to={`/`}
         >
@@ -40,7 +56,7 @@ const Layout = ({ location, title, children }) => {
           style={{
             boxShadow: `none`,
             textDecoration: `none`,
-            color: `purple`,
+            color: `#d23669`,
           }}
           to={`/`}
         >
@@ -61,9 +77,13 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}.
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href={`https://twitter.com/${social.twitter}`} target="_blank">Twitter</a>.
+        {` `}
+        <a href={`https://github.com/${social.github}`} target="_blank">GitHub</a>.
+        {` `}
+        <a href={`https://www.linkedin.com/in/${social.linkedin} `} target="_blank">LinkedIn</a>
       </footer>
     </div>
   )
