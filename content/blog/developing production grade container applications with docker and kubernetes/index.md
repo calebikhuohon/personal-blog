@@ -1,6 +1,6 @@
 ---
 title: 'Developing Cloud Native Applications with Docker and Kubernetes: Part 0'
-date: "2020-02-29T22:40:32.169Z"
+date: "2020-03-24T22:40:32.169Z"
 description: Start your journey into the world of cloud native applications
 ---
 
