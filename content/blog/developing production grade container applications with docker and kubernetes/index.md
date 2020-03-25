@@ -1,7 +1,7 @@
 ---
-title: 'Developing Cloud Native Applications with Docker and Kubernetes: Part 0'
+title: 'Developing Cloud-Native Applications with Docker and Kubernetes: Part 0'
 date: "2020-03-24T22:40:32.169Z"
-description: Start your journey into the world of cloud native applications
+description: Start your journey into the world of cloud-native applications
 ---
 
 ![](https://paper-attachments.dropbox.com/s_1651C3411EE027BE0235129E3A1BE82124D13006F89B2F161A71EFBA2AEA0D30_1585081959464_Illustrationsss.png)
@@ -25,7 +25,7 @@ In this article, we would explore the world of Docker and why it is quite popula
 
 ## Basic Setup
 
-Though this series doesn’t intend to focus on a particular dev stack, we would be working with a Node.js and React application setup that uses calculates the value of an index in the Fibonacci sequence. Expertise with these technologies is not required as the focus would be on Docker and Kubernetes. All the code we’d use in this series are available [here](https://github.com/calebikhuohon/complesso).
+Though this series doesn’t intend to focus on a particular dev stack, we would be working with a Node.js and React application setup that uses calculates the value of an index in the Fibonacci sequence. Expertise with these technologies is not required as the focus would be on Docker and Kubernetes. All the code we’d use in this series is available [here](https://github.com/calebikhuohon/complesso).
 ****
 
 ## Why Docker?
@@ -41,7 +41,7 @@ After running the command, `redis-cli` in the terminal, I am quickly informed th
 
 Docker solves this by making the Redis package available from its public registry of ***images***, known as the [Docker Hub](https://redis.io/). With Docker installed, running Redis becomes as simple as this:
 
-![Container running the Redis Image](./redis-image.png))
+![Container running the Redis Image](./redis-image.png)
 
 
 Docker obtains the Redis image from the Docker Hub and uses this image to create a ***container*** that houses our Redis server. Docker makes software installation easy as it cuts out a whole lot of issues relating to setup and dependencies when installing software the traditional way.
